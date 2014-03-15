@@ -1,5 +1,5 @@
 {
-  "name": "geo-boundaries-world-110m",
+  "name": "geo-boundaries-us-110m",
   "title": "United States Polygons as GeoJSON (.geojson/.topojson) at 1:110m",
   "version": "0.1.0",
   "description": "geodata data package providing geojson polygons for United States' Internal Administrative Boundaries",
