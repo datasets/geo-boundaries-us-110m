@@ -1,0 +1,93 @@
+{
+  "name": "geo-boundaries-world-110m",
+  "title": "United States Polygons as GeoJSON (.geojson/.topojson) at 1:110m",
+  "version": "0.1.0",
+  "description": "geodata data package providing geojson polygons for United States' Internal Administrative Boundaries",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/datasets/geo-boundaries-us-110m.git"
+  },
+  "sources": [{
+    "name": "Natural Earth",
+    "web": "http://www.naturalearthdata.com/downloads/110m-cultural-vectors/110m-admin-1-states-provinces/"
+  }],
+  "keywords": [
+    "topojson",
+    "geojson",
+    "spatialdata",
+    "geodata",
+    "vector"
+  ],
+  "licenses": {
+    "type": "ODC-PDDL",
+    "url": "http://opendatacommons.org/licenses/pddl/1.0/"
+  },
+  "resources": [
+    {
+      "name": "Internal administrative boundaries of the United States of America - States and Provinces",
+      "path": "json/ne_110m_admin_1_states_provinces_lakes_shp.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 110275
+    },
+    {
+      "name": "Internal administrative boundaries of the United States of America - States and Provinces",
+      "path": "json/ne_110m_admin_1_states_provinces_lakes_shp.topojson",
+      "format": "topojson",
+      "mediatype": "application/json",
+      "bytes":  5904
+    }
+  ],
+  "resources": [
+    {
+      "name": "Internal administrative boundaries of the United States of America - Without Large Lakes",
+      "path": "json/ne_110m_admin_1_states_provinces_lines.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 5361
+    },
+    {
+      "name": "Internal administrative boundaries of the United States of America - Without Large Lakes",
+      "path": "json/ne_110m_admin_1_states_provinces_lines.topojson",
+      "format": "topojson",
+      "mediatype": "application/json",
+      "bytes":  1346
+    }
+  ],
+  "resources": [
+    {
+      "name": "Internal administrative boundaries of the United States of America - Boundaries",
+      "path": "json/ne_110m_admin_1_states_provinces_shp.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 11047
+    },
+    {
+      "name": "Internal administrative boundaries of the United States of America - Boundaries",
+      "path": "json/ne_110m_admin_1_states_provinces_shp.topojson",
+      "format": "topojson",
+      "mediatype": "application/json",
+      "bytes":  2054
+    }
+  ],
+  "resources": [
+    {
+      "name": "Internal administrative boundaries of the United States of America - Scale Ranks",
+      "path": "json/ne_110m_admin_1_states_provinces_shp_scale_rank.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 7127
+    },
+    {
+      "name": "Internal administrative boundaries of the United States of America - Scale Ranks",
+      "path": "json/ne_110m_admin_1_states_provinces_shp_scale_rank.topojson",
+      "format": "topojson",
+      "mediatype": "application/json",
+      "bytes":  2054
+    }
+  ]
+  "bugs": {
+    "url": "https://github.com/datasets/geo-boundaries-us-110m/issues"
+  },
+  "homepage": "https://github.com/datasets/geo-boundaries-us-110m"
+}
